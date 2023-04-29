@@ -1,0 +1,56 @@
+section {
+  width: 200px;
+  height: 250px;
+  border: 2px solid black;
+}
+
+section:hover {
+  border-radius: 50%;
+  background-color: pink;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
+a:link {
+  color: gold;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: red;
+}
+
+/* ul li:last-child {
+  background-color: aqua;
+}
+
+ul li:nth-child(even) {
+  background-color: blue;
+}
+
+ul li:nth-of-type(odd) {
+  background-color: pink;
+} */
+
+ul li:nth-of-type(2) {
+  background-color: antiquewhite;
+}
+
+#last-heading::before {
+  content: "this is before ";
+  color: blue;
+}
+
+#last-heading::after {
+  content: " this is after";
+  color: blue;
+}
